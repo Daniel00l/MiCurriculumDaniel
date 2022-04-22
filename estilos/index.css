@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menuH h1{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menuH{
+    overflow: hidden;
+}
+.menuV{
+    float: left;
+    width: 20%;
+   overflow: hidden;
+}
+.menuV a{
+    background-color: rgb(114, 2, 15);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style:solid;
+    border-width: 2px;
+    border-color: rgb(64, 0, 7);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menuV a:hover{
+    background-color:rgb(212, 138, 147);
+    color: black;
+}
+.info{
+    background-color: rgb(114, 2, 15);
+    color: rgb(255, 255, 255);
+}
+.info{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titulo{
+    padding: 0.5%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    min-height: 500px;
+    /*align-content: space-between;*/
+    margin-top: 2px;
+    margin-bottom:1px;
+    margin:3px;
+    padding: 1%;
+}
+.contenido_base h2{
+    text-align: center;
+}
+/*------------------------------------------------------------*/
+.principal{
+    width: 130%;
+    height: 400px;
+    display:inline-block;
+    
+    
+}
+.imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;   
+}
+.marco{
+    height:300px;
+    width: 300px;
+    border-color: rgb(202, 13, 13);
+    border-style:solid;
+
+}
+.Datos{
+    width: 70%;
+    display:inline-block;
+}
+.tableDatos,th,td{
+	text-align: center;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;  
+    
+}
+
+.Tit{
+    text-align: center;
+    width: 120%;
+        
+}
+.lista_d{
+    width:120%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom:20px;
+   
+}
+li{
+    margin-bottom: 30px;
+}
+.video{
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.trjvideo{
+    margin: 5%;
+    text-align: center;
+}
+.hobbies{
+    width: 120%;
+    display: inline-block;
+    justify-content: center;
+
+ 
+}
+.Shanon{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 110%;
+    text-align: justify;
+}
+.iconos{
+    width: 10%;
+    height: 100%;
+    margin-left:30%;
+    
+}
+.redes{
+    display: inline-block;
+    width:40%;
+    height: 10%;
+    margin-right: auto;
+    margin-left: 12%;
+    
+}
+
+/*------------------------------------------------------------------*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(7, 6, 6);
+    color: white;
+  }
+
